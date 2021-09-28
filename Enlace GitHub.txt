@@ -1,0 +1,5 @@
+Enlace del Informe subido a GitHub:
+
+https://github.com/Zebensui00/srd_zebensui/blob/afde62b435331b47ae4c8de5c15e93ef7e6678ab/dchp/README.md
+
+Último commit: afde62b
