@@ -96,4 +96,14 @@ Comprobamos que la IP de reserva se asignó correctamente.
 
   ![](img/31.png)
 
-17. Bien ahora vamos a comprobar si sirve la exclusión de IPs. Para ello vamos a aprovechar lo siguiente:  
+17. Bien ahora vamos a comprobar si sirve la exclusión de IPs. Para ello vamos a aprovechar lo siguiente: Cuando nosotros reservamos la IP 82 para el equipo y luego quitamos la reserva, el servidor le sigue dando esa porque no hay más equipos que pidan IPs por lo que vamos a excluirle esa para que no se la de más y vuelva a darle otra dentro del ámbito. Para ello nos tenemos que ir al ámbito, click derecho, agregar exclusión, y pones la IP que queremos excluir como antes.
+
+![](img/33.png)
+
+![](img/34.png)
+
+Por último solo me queda explicar que si queremos cambiar la configuración de la puerta de enlace y DNS que da el ámbito por defecto, entre otros muchos parámetros, nos podemos ir al apartado de Opciones del Ámbito. Y si por algún casual tenemos varios ámbitos y solo queremos cambiar algo en uno y que los demás del server se queden con otros ajustes podemos hacer lo mismo dentro de Opciones de Servidor, que funciona de la misma manera pero a nivel de máquina, en mi caso como lo configure con el asistente antes y solo tengo un ámbito lo dejo como esta.
+
+![](img/32.png)
+
+![](img/35.png)
