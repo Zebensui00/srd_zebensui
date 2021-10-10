@@ -187,6 +187,8 @@ Cliente:
 
 ![](img/49.png)
 
-Nslookp desde le cliente hacia el exterior:
+Nslookp desde el cliente hacia el exterior:
 
 ![](img/50.png)
+
+</center>
