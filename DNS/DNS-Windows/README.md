@@ -1,10 +1,11 @@
-## Informe DNS Windows - Zebensui Lorenzo Esquivel
+ ## Informe DNS Windows - Zebensui Lorenzo Esquivel 
 
 En este caso vamos a instalar y configurar el servidor de nombres (DNS) en una máquina Windows Server 2016
 
 Para ello lo primero es instalarlo mediante le asistente. Como siempre nos vamos a la parte de Agregar Roles y Características y seleccionamos el servicio DNS aunque lo más probable es que ya lo tengamos instalados como es mi caso, puesto que se instala cuando promovemos el AC a controlador de dominio.
 
-![](img/1.png)
+<center> ![](./img/1.png) </center>
+
 
 Nos vamos a la parte de herramientas y lo abrimos.
 
