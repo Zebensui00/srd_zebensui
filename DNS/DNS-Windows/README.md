@@ -169,8 +169,6 @@ Antes de seguir a hacer las comprobaciones vamos a asegurarnos de que el servido
 
 ![](img/26.png)
 
-![](img/42.png)
-
 # Comprobaciones
 
 Lo que nos falta es comprobar que se resuelven todos los registros que hemos creado desde el servidor y desde el cliente.
