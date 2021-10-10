@@ -1,10 +1,12 @@
- ## Informe DNS Windows - Zebensui Lorenzo Esquivel 
+<center>
+
+ # Informe DNS Windows - Zebensui Lorenzo Esquivel
 
 En este caso vamos a instalar y configurar el servidor de nombres (DNS) en una máquina Windows Server 2016
 
 Para ello lo primero es instalarlo mediante le asistente. Como siempre nos vamos a la parte de Agregar Roles y Características y seleccionamos el servicio DNS aunque lo más probable es que ya lo tengamos instalados como es mi caso, puesto que se instala cuando promovemos el AC a controlador de dominio.
 
-<center> ![](./img/1.png) </center>
+ ![](./img/1.png)
 
 
 Nos vamos a la parte de herramientas y lo abrimos.
@@ -106,3 +108,85 @@ Server:
 Cliente:
 
 ![](img/23.png)
+
+# Server Master
+
+Vamos a empezar a añadir nuevos host al servicio DNS. El funcionamiento para todos es el mismo, le damos click derecho en la zona que hemos creado y seleccionamos le tipo de registro que queremos, para el primero sera un Alias CNAME del servidor en el que estamos
+
+![](img/27.png)
+
+Tendremos que ponerle el nombre que queramos y seleccionar hacía que máquina apunta.
+
+![](img/28.png)
+
+![](img/29.png)
+
+![](img/30.png)
+
+Para todos los siguientes lo hacemos de la misma forma solo que en este caso es un host nuevo, osea un registro A
+
+![](img/31.png)
+
+Importante marcar en todos "Crear registro PTR asociado" para que se cree en la zona inversa de forma automática
+
+![](img/32.png)
+
+Para el de correos primero creamos el registro host (A) y creamos un MX que apunte a él.
+
+![](img/33.png)
+
+![](img/44.png)
+
+![](img/45.png)
+
+Así nos queda:
+
+![](img/34.png)
+
+Para el de correos primero creamos el registro host (A) y creamos un MX que apunte a él.
+
+![](img/35.png)
+
+![](img/36.png)
+
+Seguimos el procedimiento como antes
+
+![](img/37.png)
+
+![](img/38.png)
+
+![](img/39.png)
+
+Así nos queda:
+
+![](img/40.png)
+
+Y la zona inversa:
+
+![](img/41.png)
+
+Antes de seguir a hacer las comprobaciones vamos a asegurarnos de que el servidor DNS registra a nuestro cliente
+
+![](img/26.png)
+
+![](img/42.png)
+
+# Comprobaciones
+
+Lo que nos falta es comprobar que se resuelven todos los registros que hemos creado desde el servidor y desde el cliente.
+
+Servidor:
+
+![](img/46.png)
+
+![](img/47.png)
+
+Cliente:
+
+![](img/48.png)
+
+![](img/49.png)
+
+Nslookp desde le cliente hacia el exterior:
+
+![](img/50.png)
