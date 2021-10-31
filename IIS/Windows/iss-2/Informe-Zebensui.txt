@@ -1,0 +1,5 @@
+Enlace para el informe de Informe IIS - Servidor Web avanzado - Carpetas seguras y privadas.
+
+https://github.com/Zebensui00/srd_zebensui/blob/f557a524bc07bf0c43c2efcb788b250f67ff872a/IIS/Windows/iss-2/README.md
+
+Zebensui Lorenzo Esquivel.
