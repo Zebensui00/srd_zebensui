@@ -166,3 +166,32 @@ Comprobamos que se instalo correctamente en nuestro sitio web después de haber 
 
 16. Lo último que tenemos que hacer es personalizar nuestro sitio con Drupal.
 Para ellos vamos a hacer varias cosas, la primera es cambiar el idioma a Español.
+Para ello tenemos que instalar el modulo Locale, seleccionar el idioma Español por defecto, descargarnos el paquete de Español e importarlo.
+
+![](img/64.png)
+
+![](img/65.png)
+
+![](img/66.png)
+
+![](img/67.png)
+
+![](img/68.png)
+
+17. Nos instalamos el modulo para tener todos los idiomas disponibles.
+
+![](img/69.png)
+
+18. Instalamos varios temas y cambiamos el que tenemos.
+
+![](img/70.png)
+
+19. Ya solo nos queda crear el contenido de las páginas y ponerles un menú.
+
+![](img/71.png)
+
+![](img/72.png)
+
+![](img/73.png)
+
+![](img/74.png)
