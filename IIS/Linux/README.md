@@ -26,7 +26,7 @@
 
 ![](img/9.png)
 
-5. Vamos a crear otro sitio, emleados.miempresa.com para comprobar que todo funciona correctamente.
+5. Vamos a crear otro sitio, empleados.miempresa.com para comprobar que todo funciona correctamente.
 
 ![](img/10.png)
 
@@ -36,15 +36,14 @@
 
 ![](img/13.png)
 
-6. Creamos el citio seguro pagos.miempres.com Para ello primero generamos el certificado, que tiene que ser de 4096 aunqué en la imagen salga que es de 1024.
+6. Creamos el sitio seguro pagos.miempres.com Para ello primero generamos el certificado.
 
-![](img/14.png)
+![](img/17.png)
 
 ![](img/15.png)
 
 ![](img/16.png)
 
-![](img/17.png)
 
 ![](img/18.png)
 
