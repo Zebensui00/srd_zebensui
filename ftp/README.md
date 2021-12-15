@@ -121,3 +121,61 @@
 ![](windows/img/41.png)
 
 ![](windows/img/42.png)
+
+## Linux
+
+### SSH
+
+16. Instalamos el servicio SSH y creamos los diferentes usuarios. A Jose lo metí en root y a Julia no para que tengas diferentes permisos.
+
+![](linux/img/1.png)
+
+![](linux/img/2.png)
+
+17. Comprobamos la conexión ssh.
+
+![](linux/img/3.png)
+
+![](linux/img/4.png)
+
+18. Ejecutamos GIMP desde el cliente entrando con los difetentes usuarios.
+
+![](linux/img/5.png)
+
+![](linux/img/6.png)
+
+19. Ahora vamos a realizar pruebas de subida y bajada de archivos con los diferentes usuarios desde el SFTP del propio ssh
+
+![](linux/img/7.png)
+
+![](linux/img/8.png)
+
+![](linux/img/9.png)
+
+![](linux/img/10.png)
+
+20. Enviamos una archivo al servidor con el comando scp.
+
+![](linux/img/11.png)
+
+![](linux/img/12.png)
+
+## PROFTP
+
+21. Ahora nos instalamos el PROFTP y tenemos que ir a su archivo de configuración y descomentar la linea que se muestra a continuación:
+
+![](linux/img/14.png)
+
+22. Comprobamos la conexión con el FTP desde el servidor y desde el cliente.
+
+![](linux/img/15.png)
+
+23. Ahora solo nos queda hacer las mimas pruebas que hicimos antes con el sftp pero en este caso con el PROFTP.
+
+![](linux/img/16.png)
+
+![](linux/img/17.png)
+
+![](linux/img/18.png)
+
+![](linux/img/19.png)
