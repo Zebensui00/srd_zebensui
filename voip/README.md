@@ -75,3 +75,6 @@ Con esto ya estamos dentro con uno de los usuarios listo para llamar y recibir l
 Ahora lo que tendríamos que hacer es descargar ZoiPer en el móvil, entrar con el otro usuario y establecer una llamada. 
 El problema es que no conseguimos que el móvil este en la misma red que las máquinas virtuales, por mucho que ponemos estas en adaptador puente y le damos una IP de la red a la que esta conectado por WIFI el móvil, por ende es imposible que este se conecte con el cliente mediante una llamada. 
 
+![](img-2/21.png)
+
+![](img-2/22.png)
